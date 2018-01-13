@@ -1,0 +1,6 @@
+framework module Pods_TabScreen {
+  umbrella header "Pods-TabScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="123"/>
+        </scene>
+        <!--Sports-->
+        <scene sceneID="F34-a7-bdX">
+            <objects>
+                <viewController storyboardIdentifier="Sports" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PIj-6o-Bk8" customClass="Sports" customModule="TabScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JW7-0T-j47">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5sQ-cY-50C">
+                                <rect key="frame" x="0.0" y="25" width="375" height="250"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="us" translatesAutoresizingMaskIntoConstraints="NO" id="V18-6J-5jr">
+                                        <rect key="frame" x="1" y="1" width="373" height="248"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reuters. 28m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtR-JI-T8J">
+                                        <rect key="frame" x="40" y="214" width="103" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ak-Ta-FCP">
+                                        <rect key="frame" x="336" y="211" width="24" height="24"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="more"/>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt" translatesAutoresizingMaskIntoConstraints="NO" id="het-LT-VPD">
+                                        <rect key="frame" x="15" y="215" width="20" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="het-LT-VPD" secondAttribute="height" multiplier="1:1" id="dEL-AA-BTF"/>
+                                            <constraint firstAttribute="height" constant="20" id="iiu-c6-OJh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voters head to polls in Alabama race with highstakes for Trump." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3o0-en-0fD">
+                                        <rect key="frame" x="15" y="158" width="345" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBT-lI-A3c">
+                                        <rect key="frame" x="15" y="119" width="113" height="29"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOP STORIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhQ-WG-khK">
+                                                <rect key="frame" x="2" y="4" width="109" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <color key="textColor" red="0.70196078429999997" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="JhQ-WG-khK" secondAttribute="bottom" constant="4" id="UoV-9j-jg2"/>
+                                            <constraint firstAttribute="trailing" secondItem="JhQ-WG-khK" secondAttribute="trailing" constant="2" id="YNw-F5-xiC"/>
+                                            <constraint firstItem="JhQ-WG-khK" firstAttribute="top" secondItem="MBT-lI-A3c" secondAttribute="top" constant="4" id="j1H-J7-AVa"/>
+                                            <constraint firstItem="JhQ-WG-khK" firstAttribute="leading" secondItem="MBT-lI-A3c" secondAttribute="leading" constant="2" id="xRU-jz-qu5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="3Ak-Ta-FCP" secondAttribute="trailing" constant="15" id="6TT-Qq-Qyq"/>
+                                    <constraint firstItem="3Ak-Ta-FCP" firstAttribute="top" secondItem="3o0-en-0fD" secondAttribute="bottom" constant="10" id="By2-0F-2QG"/>
+                                    <constraint firstAttribute="bottom" secondItem="V18-6J-5jr" secondAttribute="bottom" constant="1" id="Cxf-hg-xrS"/>
+                                    <constraint firstItem="MBT-lI-A3c" firstAttribute="leading" secondItem="5sQ-cY-50C" secondAttribute="leading" constant="15" id="DLJ-lc-3UA"/>
+                                    <constraint firstItem="3o0-en-0fD" firstAttribute="leading" secondItem="5sQ-cY-50C" secondAttribute="leading" constant="15" id="EFh-uc-mWf"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZtR-JI-T8J" secondAttribute="bottom" constant="15" id="Eeb-74-8sZ"/>
+                                    <constraint firstItem="V18-6J-5jr" firstAttribute="top" secondItem="5sQ-cY-50C" secondAttribute="top" constant="1" id="MWr-qz-08X"/>
+                                    <constraint firstItem="V18-6J-5jr" firstAttribute="leading" secondItem="5sQ-cY-50C" secondAttribute="leading" constant="1" id="QNd-QO-atb"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Ak-Ta-FCP" secondAttribute="bottom" constant="15" id="Qwz-gb-VIB"/>
+                                    <constraint firstItem="ZtR-JI-T8J" firstAttribute="leading" secondItem="het-LT-VPD" secondAttribute="trailing" constant="5" id="Z2z-Ca-0V4"/>
+                                    <constraint firstAttribute="height" constant="250" id="cPc-el-oSl"/>
+                                    <constraint firstAttribute="trailing" secondItem="V18-6J-5jr" secondAttribute="trailing" constant="1" id="epc-Rm-RFb"/>
+                                    <constraint firstItem="3o0-en-0fD" firstAttribute="top" secondItem="MBT-lI-A3c" secondAttribute="bottom" constant="10" id="hyv-ko-3PW"/>
+                                    <constraint firstItem="het-LT-VPD" firstAttribute="leading" secondItem="5sQ-cY-50C" secondAttribute="leading" constant="15" id="sCi-NK-m7t"/>
+                                    <constraint firstAttribute="bottom" secondItem="het-LT-VPD" secondAttribute="bottom" constant="15" id="t2H-WZ-FFB"/>
+                                    <constraint firstAttribute="trailing" secondItem="3o0-en-0fD" secondAttribute="trailing" constant="15" id="vIw-Vd-ckI"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlT-Q4-tGM">
+                                <rect key="frame" x="150.5" y="295" width="74" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5sQ-cY-50C" firstAttribute="leading" secondItem="zQY-CS-x8K" secondAttribute="leading" id="2wH-Nq-EFt"/>
+                            <constraint firstItem="GlT-Q4-tGM" firstAttribute="top" secondItem="5sQ-cY-50C" secondAttribute="bottom" constant="20" id="Pp6-mu-fMM"/>
+                            <constraint firstItem="5sQ-cY-50C" firstAttribute="top" secondItem="zQY-CS-x8K" secondAttribute="top" constant="5" id="YaX-Ki-opc"/>
+                            <constraint firstItem="5sQ-cY-50C" firstAttribute="trailing" secondItem="zQY-CS-x8K" secondAttribute="trailing" id="aNz-dm-VKU"/>
+                            <constraint firstItem="GlT-Q4-tGM" firstAttribute="centerX" secondItem="JW7-0T-j47" secondAttribute="centerX" id="iG8-LJ-umb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zQY-CS-x8K"/>
+                    </view>
+                    <connections>
+                        <outlet property="tiitle" destination="GlT-Q4-tGM" id="V9E-r3-vEA"/>
+                        <outlet property="topstoryView" destination="5sQ-cY-50C" id="nFX-M1-znT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xu5-Zz-8I0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="-443"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bolt" width="24" height="24"/>
+        <image name="more" width="24" height="24"/>
+        <image name="us" width="590" height="350"/>
+    </resources>
+</document>
